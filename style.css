@@ -1,15 +1,24 @@
+/* Primeira parte */
+
 .cabeca {
-    margin: auto;
     background-color: #4271b3;
+    position: relative;
+    top: -10px;
+    left: -10px;
     
 }
 
-
+span {
+    color: rgb(172, 20, 20);
+}
 .logo {
     margin-left: 48px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: 24px;
+    background-color: #4271b3;
+    position: relative;
+    right: -10px;
 }
 
 .links {
@@ -18,12 +27,37 @@
     gap: 10px;
     margin-right: 48px;
     position: relative;
-    top: -15px;
+    top: -40px;
     
+}
+
+/* Segunda parte */
+
+.dois {
+    background-color: #4271b3;
+    position: relative;
+    top: -50px;
+}
+
+.titulo {
+    margin-left: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    background-color: #4271b3;
+}
+
+.convite {
+    margin-left: 55px;
+    position: relative;
+    top: -35px;
 }
 
 
 .director {
     width: 500px;
     height: 200px;
+    margin-left: auto;
+    position: relative;
+    bottom: 60px;
 }
