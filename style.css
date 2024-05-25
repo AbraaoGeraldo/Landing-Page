@@ -76,12 +76,51 @@ h2 {
     font-size: 30px;
 }
 
-
+.texto {
+    background-color: #fff2cc;
+    position: relative;
+    top: -100px;
+}
 
 .filmes {
     display: flex;
-    flex-wrap: wrap;
+    gap: 100px;
+
+    padding: 24px;
+    margin: auto;
 }
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
 
 .yo {
     border: 12px solid #4271b3;
@@ -103,3 +142,30 @@ h2 {
     border-radius: 12px;
 }
 
+.pala {
+    font-weight: 700;
+}
+
+/* Terceira Parte */
+
+.frase {
+    position: relative;
+    top: -120px;
+    background-color: rgb(164, 193, 219);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.cliente {
+    padding-left: 300px;
+}
+
+
+/* Quarta Parte */
+
+.fim {
+    display: flex;
+    flex: wrap;
+    text-align: center;
+    gap: 10px;
+}
