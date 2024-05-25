@@ -31,7 +31,6 @@ span {
     
 }
 
-/* Segunda parte */
 
 .dois {
     background-color: #4271b3;
@@ -51,8 +50,8 @@ span {
     margin-left: 55px;
     position: relative;
     top: -35px;
+    color: whitesmoke;
 }
-
 
 .director {
     width: 500px;
@@ -61,3 +60,46 @@ span {
     position: relative;
     bottom: 60px;
 }
+
+#bot {
+    margin-left: 48px;
+    position: relative;
+    top: -250px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 250);
+}
+
+/* Segunda parte */
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yo {
+    border: 12px solid #4271b3;
+    border-radius: 12px;
+}
+
+.viver {
+    border: 12px solid #4271b3;
+    border-radius: 12px;
+}
+
+.trono {
+    border: 12px solid #4271b3;
+    border-radius: 12px;
+}
+
+.lear {
+    border: 12px solid #4271b3;
+    border-radius: 12px;
+}
+
