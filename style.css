@@ -5,12 +5,12 @@
     position: relative;
     top: -10px;
     left: -10px;
-    
 }
 
 span {
     color: rgb(172, 20, 20);
 }
+
 .logo {
     margin-left: 48px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -156,16 +156,53 @@ h2 {
     text-align: center;
 }
 
-.cliente {
-    padding-left: 300px;
+#cita {
+    position: relative;
+    top: 10px;
 }
 
+
+.cliente {
+    padding-left: 300px;
+    position: relative;
+    top: -5px;
+}
 
 /* Quarta Parte */
 
 .fim {
+    width: 500px;
+    margin-left: 400px;
+    position: relative;
+    top: -70px;
     display: flex;
-    flex: wrap;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+    background-color: #4271b3;
+    border: 12px solid #4271b3;
+    border-radius: 12px;
+}
+
+#botao {
+   color: rgb(255, 255, 255); 
+   background-color: #4271b3;
+   width: 200px;
+   border: 1px solid;
+}
+
+#ticket {
+    margin-left: 12px;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    position: relative;
+    top: 20px;
 }
